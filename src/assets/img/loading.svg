@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_loading</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-550.000000, -924.000000)" id="main" fill="#191919">
+            <g transform="translate(470.000000, 84.000000)">
+                <g id="Load-more" transform="translate(80.000000, 826.000000)">
+                    <g id="icon_loading" transform="translate(0.000000, 14.000000)">
+                        <path d="M9.75814185,0.564335692 C8.91177187,0.201129107 7.97937405,0 7,0 C3.13400675,0 0,3.13400675 0,7 C0,10.8659932 3.13400675,14 7,14 C10.8659932,14 14,10.8659932 14,7 C14,6.02062595 13.7988709,5.08822813 13.4356643,4.24185815 L11.5969031,5.02989868 C11.8563364,5.63444866 12,6.30044711 12,7 C12,9.76142375 9.76142375,12 7,12 C4.23857625,12 2,9.76142375 2,7 C2,4.23857625 4.23857625,2 7,2 C7.69955289,2 8.36555134,2.14366365 8.97010132,2.40309692 L9.75814185,0.564335692 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
