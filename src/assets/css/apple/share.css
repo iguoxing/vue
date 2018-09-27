@@ -1,0 +1,154 @@
+html,
+.apple-share {
+  height: 100%;
+}
+h5,
+p {
+  margin: 0 auto;
+}
+.apple-share {
+  font-size: 0.5rem;
+  background-color: #000;
+  color: #ccc;
+}
+.apple-share .share-head {
+  position: absolute;
+  z-index: 2;
+  top: .3rem;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+.apple-share .share-head .logo {
+  margin: 0.06rem .2rem;
+}
+.apple-share .share-head .share-time {
+  font-size: .2rem;
+  font-weight: 300;
+  color: #ba9278;
+}
+.apple-share .share-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 87.5%;
+  padding-top: .68rem;
+}
+.apple-share .share-content .share-title {
+  background: linear-gradient(to left, #c4987a 33%, #ffd5bf 73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.apple-share .share-content .share-sub-title {
+  margin: .40rem auto .13rem;
+  font-size: .21rem;
+  font-weight: initial;
+  line-height: 1.19048;
+  letter-spacing: 0.011em;
+  color: #d9b69e;
+}
+.apple-share .share-content .share-success .success-state {
+  margin-top: .88rem;
+  font-size: .24rem;
+  letter-spacing: .09rem;
+  text-align: center;
+  color: #fff;
+}
+.apple-share .share-content .share-success .share-app {
+  margin-top: .1rem;
+  margin-bottom: .38rem;
+  font-size: .3rem;
+  text-align: center;
+  color: #cfb19e;
+}
+.apple-share .share-content .share-success .share-des {
+  margin-bottom: .46rem;
+  font-size: .16rem;
+  text-align: center;
+  color: #cfb19e;
+}
+.apple-share .share-content .share-cicle {
+  position: relative;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.17rem;
+  margin-left: -1.36rem;
+  width: 2.72rem;
+  height: 2.72rem;
+  background-size: 2.72rem 2.72rem;
+  background-repeat: no-repeat;
+  background-image: url(https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home%2Fapple%2Fimg%2Fimage_cicle.jpg);
+}
+.apple-share .share-content .share-cicle .cicle-title {
+  background: linear-gradient(to left, #c4987a 33%, #ffd5bf 73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: .3rem;
+  font-weight: 600;
+  color: #b28668;
+}
+.apple-share .share-content .share-cicle .cicle-sub-title {
+  font-size: .2rem;
+  font-weight: 300;
+  color: #b28668;
+}
+.apple-share .share-list {
+  margin: .3rem;
+  border-radius: .1rem;
+  background-color: #d8d8d8;
+  font-size: .16rem;
+  color: #b17f5c;
+  font-weight: 500;
+}
+.apple-share .share-list .table {
+  width: 100%;
+  padding: .08rem;
+}
+.apple-share .share-form {
+  padding: .3rem .2rem;
+  text-align: left;
+}
+.apple-share .share-form .form-title {
+  margin-bottom: .3rem;
+  font-size: .18rem;
+  font-weight: 600;
+  color: #ffede3;
+}
+.apple-share .share-form .form-item {
+  margin-bottom: 0;
+  height: 0.6rem;
+}
+.apple-share .share-form .form-item .form-item-input {
+  width: 94%;
+  width: -webkit-fill-available;
+  height: .48rem;
+  padding-left: .16rem;
+  border-radius: .02rem;
+  background-color: rgba(250, 216, 199, 0.2);
+  border: solid .01rem #cfb19e;
+  color: #CFB19E;
+}
+.apple-share .share-form .share-btn {
+  margin: .64rem auto .36rem;
+}
+.apple-share .share-btn {
+  display: block;
+  margin: .3rem auto 0;
+  width: 2.64rem;
+  height: .56rem;
+  line-height: .56rem;
+  border-radius: .3rem;
+  background-color: #b17f5c;
+  background: linear-gradient(to left, #c4987a 33%, #ffd5bf 73%);
+  font-size: .2rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}

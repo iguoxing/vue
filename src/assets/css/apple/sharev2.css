@@ -1,0 +1,485 @@
+h5,
+p {
+  margin: 0 auto;
+  padding: .18rem;
+}
+html,
+.apple-share {
+  height: 100%;
+  background-color: #ef5654;
+  background-image: url(https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home%2Fapple%2Fv2%2Fimg%2Fbg.png);
+  background-repeat: repeat;
+  background-size: auto;
+}
+html .share-head,
+.apple-share .share-head {
+  margin: .1rem .1rem 0 0;
+  height: 1.5rem;
+  padding-left: .15rem;
+  text-align: left;
+  background-image: url(https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home%2Fapple%2Fv2%2Fimg%2Fhead_bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: .44rem;
+  font-weight: 600;
+  color: #fff;
+}
+html .share-success,
+.apple-share .share-success {
+  width: 3.65rem;
+  padding-top: .08rem;
+  padding-left: .29rem;
+  text-align: left;
+  background-image: url(https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home%2Fapple%2Fv2%2Fimg%2Fsuccess_bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+html .share-success .success-title,
+.apple-share .share-success .success-title {
+  margin-bottom: .06rem;
+  font-size: .2rem;
+  font-weight: 600;
+  color: #563455;
+}
+html .share-success .success-sub-title,
+.apple-share .share-success .success-sub-title {
+  max-width: 3.22rem;
+  font-size: .12rem;
+  font-weight: 500;
+  color: #563455;
+}
+html .share-success .success-app,
+.apple-share .share-success .success-app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: -0.15rem;
+  top: .06rem;
+  width: 3.38rem;
+  padding: .1rem .24rem .15rem .22rem;
+  box-sizing: border-box;
+  background-color: #f0e9ea;
+}
+html .share-success .success-app .app-info,
+.apple-share .share-success .success-app .app-info {
+  text-align: center;
+}
+html .share-success .success-app .app-info .app-des,
+.apple-share .share-success .success-app .app-info .app-des {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .05rem;
+  height: .45rem;
+}
+html .share-success .success-app .app-info .app-des .app-icon,
+.apple-share .share-success .success-app .app-info .app-des .app-icon {
+  display: inherit;
+  margin-right: .06rem;
+  width: .4rem;
+  height: .4rem;
+  border-radius: .25rem;
+  background-color: #fff;
+  border: solid .03rem #563455;
+}
+html .share-success .success-app .app-info .app-des .app-title,
+.apple-share .share-success .success-app .app-info .app-des .app-title {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #563455;
+}
+html .share-success .success-app .app-info .app-name,
+.apple-share .share-success .success-app .app-info .app-name {
+  opacity: 0.5;
+  font-size: 12px;
+  color: #563455;
+}
+html .share-success .success-notice,
+.apple-share .share-success .success-notice {
+  margin-top: .12rem;
+  margin-bottom: .12rem;
+  font-size: .12rem;
+  color: #563455;
+}
+html .share-success .success-make-code,
+.apple-share .share-success .success-make-code {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .23rem;
+  width: 3.12rem;
+  text-align: center;
+}
+html .share-success .success-make-code .make-btn,
+.apple-share .share-success .success-make-code .make-btn {
+  padding: .07rem .38rem;
+  text-align: center;
+  border-radius: .5rem;
+  background-color: #50e3c2;
+  border: solid .04rem #563455;
+  font-size: .2rem;
+  font-weight: 600;
+}
+html .share-success .success-make-code .code-icon,
+.apple-share .share-success .success-make-code .code-icon {
+  display: inherit;
+  margin-bottom: .06rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: #50e3c2;
+}
+html .share-success .success-make-code .code-title,
+.apple-share .share-success .success-make-code .code-title {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #563455;
+}
+html .share-success .success-tips,
+.apple-share .share-success .success-tips {
+  margin-top: .12rem;
+  margin-bottom: .08rem;
+  font-size: .16rem;
+  font-weight: 600;
+  color: #563455;
+}
+html .share-success .success-sub-tips,
+.apple-share .share-success .success-sub-tips {
+  max-width: 3.12rem;
+  padding-bottom: 0.3rem;
+  font-size: .12rem;
+  font-weight: 500;
+  color: #563455;
+}
+html .share-banner,
+.apple-share .share-banner {
+  margin-top: .06rem;
+  padding-top: .13rem;
+  padding-left: .29rem;
+  text-align: left;
+  color: #563455;
+}
+html .share-banner .share-title,
+.apple-share .share-banner .share-title {
+  margin-bottom: .06rem;
+  font-size: .2rem;
+  font-weight: 600;
+}
+html .share-banner .share-title .share-sub-title,
+.apple-share .share-banner .share-title .share-sub-title {
+  font-size: .12rem;
+}
+html .share-banner .share-des,
+.apple-share .share-banner .share-des {
+  width: 2.3rem;
+  font-size: .12rem;
+  font-weight: 500;
+}
+html .share-keys,
+.apple-share .share-keys {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 .06rem 0 .07rem;
+}
+html .share-keys .share-key,
+.apple-share .share-keys .share-key {
+  width: 1.29rem;
+  height: 1.29rem;
+  background-image: url(https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home%2Fapple%2Fv2%2Fimg%2Fkey_bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-weight: 500;
+  padding-right: .1rem;
+}
+html .share-keys .share-key .share-key-info,
+.apple-share .share-keys .share-key .share-key-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: .21rem;
+}
+html .share-keys .share-key .share-key-info .share-dot,
+.apple-share .share-keys .share-key .share-key-info .share-dot {
+  margin-bottom: .1rem;
+  width: .1rem;
+}
+html .share-keys .share-key .share-key-info .key-title,
+.apple-share .share-keys .share-key .share-key-info .key-title {
+  font-size: .16rem;
+  color: #563455;
+}
+html .share-keys .share-key .share-key-info .key-sub-title,
+.apple-share .share-keys .share-key .share-key-info .key-sub-title {
+  font-size: .12rem;
+  color: rgba(86, 52, 85, 0.5);
+}
+html .share-banner.share-banner-1,
+.apple-share .share-banner.share-banner-1 {
+  margin-bottom: -0.06rem;
+  height: 1.04rem;
+  background-image: url(https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home%2Fapple%2Fv2%2Fimg%2Fbanner_1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+html .share-banner.share-banner-2,
+.apple-share .share-banner.share-banner-2 {
+  margin-right: .1rem;
+  height: 1.14rem;
+  background-image: url(https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home%2Fapple%2Fv2%2Fimg%2Fbanner_2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+html .share-banner.share-banner-2 .share-des,
+.apple-share .share-banner.share-banner-2 .share-des {
+  width: 2.6rem;
+}
+html .share-btn,
+.apple-share .share-btn {
+  margin: 0 .09rem .08rem;
+  padding: .07rem 0;
+  border-radius: .02rem;
+  background-color: #50e3c2;
+  border: solid .04rem #563455;
+  font-size: .2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #563455;
+}
+html .share-partner,
+.apple-share .share-partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: .4rem;
+  line-height: .4rem;
+}
+html .share-partner .share-heads,
+.apple-share .share-partner .share-heads {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: .18rem;
+}
+html .share-partner .share-heads .head-img,
+.apple-share .share-partner .share-heads .head-img {
+  position: relative;
+  margin-left: -0.24rem;
+  width: .4rem;
+  height: .4rem;
+  border-radius: .24rem;
+  background-color: #fff;
+  border: solid .03rem #563455;
+}
+html .share-partner .partner-title,
+.apple-share .share-partner .partner-title {
+  font-size: .14rem;
+  font-weight: 600;
+  color: #fff;
+}
+html .share-lists,
+.apple-share .share-lists {
+  margin: 0 .16rem;
+  border-radius: .04rem;
+  background-color: #fbfbfb;
+}
+html .share-lists .share-table,
+.apple-share .share-lists .share-table {
+  width: 100%;
+  padding: 0 0 .25rem;
+  background-color: #fff;
+  border-radius: .04rem;
+  border-spacing: 0;
+}
+html .share-lists .share-table thead,
+.apple-share .share-lists .share-table thead {
+  box-shadow: 0 0.01rem 0.04rem 0 rgba(233, 236, 240, 0.5);
+}
+html .share-lists .share-table thead th,
+.apple-share .share-lists .share-table thead th {
+  height: .36rem;
+  padding-bottom: .1rem;
+  vertical-align: bottom;
+  font-size: .12rem;
+  font-weight: 500;
+  text-align: center;
+  color: #000;
+}
+html .share-lists .share-table thead th:first-child,
+.apple-share .share-lists .share-table thead th:first-child,
+html .share-lists .share-table thead th:last-child,
+.apple-share .share-lists .share-table thead th:last-child {
+  width: .16rem;
+}
+html .share-lists .share-table tbody,
+.apple-share .share-lists .share-table tbody {
+  padding: 0 .16rem;
+  font-size: .12rem;
+  font-weight: 500;
+  color: #000;
+}
+html .share-lists .share-table tbody tr,
+.apple-share .share-lists .share-table tbody tr {
+  height: .83rem;
+}
+html .share-lists .share-table tbody tr td,
+.apple-share .share-lists .share-table tbody tr td {
+  box-shadow: inset 0 -0.01rem 0 0 rgba(86, 52, 85, 0.24);
+}
+html .share-lists .share-table tbody tr td .share-icon,
+.apple-share .share-lists .share-table tbody tr td .share-icon {
+  margin-bottom: .02rem;
+  width: .44rem;
+  height: .44rem;
+  border-radius: .1rem;
+}
+html .share-lists .share-table tbody tr td .share-name,
+.apple-share .share-lists .share-table tbody tr td .share-name {
+  font-size: .12rem;
+  text-align: center;
+  color: #000;
+}
+html .share-lists .share-table tbody tr td .share-fire,
+.apple-share .share-lists .share-table tbody tr td .share-fire {
+  margin-top: -0.03rem;
+  margin-right: .03rem;
+  width: .14rem;
+}
+html .share-lists .share-table tbody tr td .share-arrow,
+.apple-share .share-lists .share-table tbody tr td .share-arrow {
+  margin-top: -0.02rem;
+  margin-right: .06rem;
+  height: .16rem;
+}
+html .share-lists .share-table tbody tr td .share-table-item,
+.apple-share .share-lists .share-table tbody tr td .share-table-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: .81rem;
+}
+html .share-lists .share-table tbody tr td:first-child,
+.apple-share .share-lists .share-table tbody tr td:first-child {
+  box-shadow: none;
+}
+html .share-form,
+.apple-share .share-form {
+  margin: 0 .16rem .21rem;
+  padding: .18rem;
+  border-radius: .04rem;
+  background-color: #fff;
+}
+html .share-form .form-item,
+.apple-share .share-form .form-item {
+  display: flex;
+  margin-bottom: .12rem;
+}
+html .share-form .form-item .share-input,
+.apple-share .share-form .form-item .share-input {
+  width: 100%;
+  height: .48rem;
+  border-bottom: solid 0.01rem rgba(86, 52, 85, 0.24);
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  font-size: .16rem;
+  color: #555;
+  font-weight: 500;
+}
+html .share-form .form-item-key,
+.apple-share .share-form .form-item-key {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .12rem;
+  border-bottom: solid 0.01rem rgba(86, 52, 85, 0.24);
+}
+html .share-form .form-item-key .share-input-name,
+.apple-share .share-form .form-item-key .share-input-name {
+  width: 2rem;
+  height: .48rem;
+  border: none;
+  font-size: .16rem;
+  color: #555;
+  font-weight: 500;
+}
+html .share-form .form-item-key .form-search,
+.apple-share .share-form .form-item-key .form-search {
+  display: flex;
+  align-items: center;
+}
+html .share-form .form-item-key .share-line,
+.apple-share .share-form .form-item-key .share-line {
+  height: .2rem;
+  border-right: solid .01rem #413833;
+}
+html .share-form .form-item-key .share-search,
+.apple-share .share-form .form-item-key .share-search {
+  margin-right: .15rem;
+  margin-left: .15rem;
+  font-size: .14rem;
+  font-weight: 500;
+  color: #497ddd;
+}
+html .share-form .form-item-key .share-hot,
+.apple-share .share-form .form-item-key .share-hot {
+  margin-right: .15rem;
+  font-size: .14rem;
+  font-weight: 600;
+  color: #563455;
+}
+html .share-form .form-title,
+.apple-share .share-form .form-title {
+  text-align: left;
+  font-size: .12rem;
+  font-weight: 500;
+  color: #563455;
+}
+html .share-form .form-sub-title,
+.apple-share .share-form .form-sub-title {
+  text-align: left;
+  font-size: .12rem;
+  line-height: 1.92;
+  color: #563455;
+}
+html .share-form .share-submit,
+.apple-share .share-form .share-submit {
+  margin: .36rem auto;
+  width: 2.75rem;
+  height: .42rem;
+  line-height: .42rem;
+  border-radius: .02rem;
+  background-color: #50e3c2;
+  border: solid .04rem #563455;
+  font-size: .2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #563455;
+}
+html .share-logo,
+.apple-share .share-logo {
+  display: inherit;
+  margin: .21rem auto .26rem;
+  width: .8rem;
+  height: .23rem;
+}
+html .page-title,
+.apple-share .page-title {
+  margin: .27rem auto .18rem;
+  padding: .08rem 0 .18rem 0;
+  width: 2rem;
+  background-image: url(https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home%2Fapple%2Fv2%2Fimg%2Fapp_title_bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: .18rem;
+  font-weight: 600;
+  text-align: center;
+  color: #563455;
+}
+html .page-title label,
+.apple-share .page-title label {
+  margin-right: .14rem;
+}
+html .page-title.title-2,
+.apple-share .page-title.title-2 {
+  margin: .21rem auto .24rem;
+}

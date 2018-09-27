@@ -9,6 +9,10 @@ const Approval = resolve => require(['@/components/Index/Approval'], resolve) //
 const Application = resolve => require(['@/components/Exam/Application'], resolve) //申请页
 const Exam = resolve => require(['@/components/Exam/Exam'], resolve) //待审批
 const WaitApply = resolve => require(['@/components/Exam/Wait'], resolve) //待审批
+const HomeIndex = resolve => require(['@/components/Admore/Index'], resolve) //广告官网-首页
+const HomeIndexPhone = resolve => require(['@/components/Admore/Index_phone'], resolve) //广告官网-首页 移动版
+const AppleSharePhone = resolve => require(['@/components/Apple/Share'], resolve) //苹果发布会 分享页
+const AppleSharePhoneV2 = resolve => require(['@/components/Apple/ShareV2'], resolve) //苹果发布会 分享页 第二版
 
 import Symbols from '@/components/Index/Symbols'
 
@@ -28,13 +32,17 @@ export default new Router({
         { path: '/approval', component: Approval },
         { path: '/apply', component: Application },
         {
-            path: '/',
+            path: '/work',
             component: Exam,
             children: [
                 { path: '/', component: Application, alias: 'apply' },
                 { path: 'wait', component: WaitApply }
             ]
-        }
+        },
+        {path: '/homePhone',component: HomeIndexPhone},
+        {path: '/home',component: HomeIndex},
+        {path: '/share',component: AppleSharePhone},
+        {path: '/sharev2',component: AppleSharePhoneV2}
     ]
 })
 

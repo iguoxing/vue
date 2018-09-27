@@ -1,0 +1,241 @@
+.phone-banner {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: .18rem .3rem;
+  background: #fff;
+  border-bottom: solid .02rem #eaeaea;
+}
+.phone-banner .banner-logo {
+  width: .63rem;
+  height: .17rem;
+}
+.phone-banner .banner-group {
+  width: .17rem;
+  height: .15rem;
+}
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-section {
+  margin-top: .55rem;
+  margin-bottom: .17rem;
+  padding: .24rem 0.2rem 0;
+  border-bottom: solid .02rem #f6f6f6;
+  font-size: .12rem;
+}
+.index-section .asou-service {
+  position: relative;
+  margin-bottom: .2rem;
+  text-align: left;
+  padding: .3rem .18rem .4rem .3rem;
+  border-radius: .04rem;
+  background-image: linear-gradient(116deg, #6348e9, #6089ff);
+  font-weight: 500;
+  color: #fff;
+}
+.index-section .asou-service .asou-title {
+  margin: 0 0 .12rem;
+  font-size: .26rem;
+}
+.index-section .asou-service .asou-explain {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: .14rem;
+  line-height: 1.86;
+}
+.index-section .asou-service .asou-explain label {
+  position: relative;
+  padding-bottom: .02rem;
+  background-image: url(https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home%2Fv3%2Fimg%2Findex%2Fasou_title_bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+.index-section .asou-service .asou-explain label .asou-notice-1 {
+  position: absolute;
+  width: .89rem;
+  height: .26rem;
+  left: 16%;
+  top: .21rem;
+}
+.index-section .asou-service .asou-explain label .asou-notice-2 {
+  position: absolute;
+  width: .89rem;
+  height: .26rem;
+  left: 68%;
+  top: .21rem;
+}
+.index-section .asou-service .asou-explain-info {
+  margin-top: .33rem;
+  margin-bottom: .18rem;
+}
+.index-section .asou-service .asou-line {
+  margin-bottom: .23rem;
+  width: 2.75rem;
+  opacity: 0.2;
+  border: solid .005rem #ffffff;
+}
+.index-section .asou-service .asou-sub-title {
+  margin: 0 0 .12rem;
+  font-size: .16rem;
+}
+.index-section .asou-service .asou-sub-explain {
+  margin-bottom: .4rem;
+  line-height: 1.54;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: .13rem;
+  font-weight: 400;
+}
+.index-section .asou-service .asou-feature {
+  display: flex;
+  margin-bottom: .09rem;
+  margin-left: -0.1rem;
+  font-size: .10rem;
+  font-weight: 400;
+  color: #fff;
+}
+.index-section .asou-service .asou-feature .feature-item {
+  margin-right: .21rem;
+  text-align: center;
+}
+.index-section .asou-service .asou-feature .feature-item .feature-img {
+  height: .28rem;
+  margin-bottom: .12rem;
+}
+.index-section .asou-service .asou-feature .feature-item .feature-title {
+  transform: scale(0.8);
+  width: .6rem;
+}
+.index-section .asou-service .asou-feature .feature-item.active .feature-title {
+  width: 1.16rem;
+  color: #ffe053;
+}
+.index-section .asou-service .asou-feature .feature-item:last-child {
+  margin-right: 0;
+}
+.index-section .asou-service .asou-feature .feature-item:last-child .feature-title {
+  width: .76rem;
+}
+.index-section .coupon-service {
+  margin-bottom: .2rem;
+  width: 3.34rem;
+  height: 3.52rem;
+  text-align: left;
+  box-sizing: border-box;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+  padding-right: .25rem;
+  background-image: url(https://admore-cas.oss-cn-hangzhou.aliyuncs.com/home/v3/img/index/coupon_mini.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: 500;
+}
+.index-section .coupon-service h5 {
+  margin-top: 0;
+  margin-bottom: .12rem;
+  font-size: .26rem;
+  color: #ffffff;
+}
+.index-section .coupon-service .coupon-sub-title {
+  margin-bottom: 1.47rem;
+  line-height: 1.57;
+  font-size: .14rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.index-section .coupon-service .index-btn {
+  border-radius: .04rem;
+  box-shadow: 0 0.08rem 0.1rem 0 rgba(208, 2, 27, 0.36);
+  background-image: linear-gradient(to bottom, #ffffff, #f5f7f9);
+  border: solid .01rem #e4e4e4;
+  text-decoration: none;
+  color: #f76460;
+  font-size: .16rem;
+  font-weight: 500;
+}
+.index-section .tweeter-pay .know-item {
+  display: flex;
+  height: 1.2rem;
+  border-radius: .06rem;
+  margin-bottom: .2rem;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+}
+.index-section .tweeter-pay .know-item .know-section {
+  margin-top: .3rem;
+  text-align: left;
+  font-weight: 500;
+  color: #fff;
+}
+.index-section .tweeter-pay .know-item .know-section .know-title {
+  margin-bottom: .06rem;
+  font-size: .2rem;
+}
+.index-section .tweeter-pay .know-item .know-section .know-info {
+  line-height: 2;
+  font-size: .12rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.index-section .tweeter-pay .know-item.know-tweeter {
+  background-image: linear-gradient(165deg, #42a0ff, #2075ff);
+}
+.index-section .tweeter-pay .know-item.know-pay {
+  background-image: linear-gradient(164deg, #c4c6ca, #7b7f99);
+}
+.index-section .tweeter-pay .know-item.know-pay .know-section {
+  margin-top: .23rem;
+}
+.index-section .tweeter-pay .know-item:last-child {
+  margin-right: 0;
+}
+.index-section .index-btn {
+  z-index: 1;
+  cursor: pointer;
+  padding: .1rem .58rem;
+  border-radius: .04rem;
+  font-size: .16rem;
+}
+.index-section .index-btn:hover {
+  opacity: 0.8;
+}
+.phone-footer {
+  text-align: left;
+  padding: 0 .3rem;
+  font-weight: 500;
+}
+.phone-footer .footer-title {
+  margin-bottom: .04rem;
+  opacity: 0.5;
+  font-size: .12rem;
+  color: #3d3f48;
+}
+.phone-footer .footer-number {
+  display: flex;
+  align-items: center;
+  margin-bottom: .46rem;
+  height: .17rem;
+  font-size: .12rem;
+  font-weight: 500;
+  color: #b3b9c1;
+}
+.phone-footer .footer-number .phone-img {
+  margin-right: .08rem;
+  width: .12rem;
+  height: .13rem;
+}
+.phone-footer .footer-right {
+  position: relative;
+  margin-bottom: .55rem;
+  margin-left: -0.36rem;
+  width: 3.8rem;
+  opacity: 0.5;
+  transform: scale(0.8);
+  font-size: .1rem;
+  color: #687484;
+}
