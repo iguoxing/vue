@@ -13,6 +13,8 @@ const HomeIndex = resolve => require(['@/components/Admore/Index'], resolve) //�
 const HomeIndexPhone = resolve => require(['@/components/Admore/Index_phone'], resolve) //广告官网-首页 移动版
 const AppleSharePhone = resolve => require(['@/components/Apple/Share'], resolve) //苹果发布会 分享页
 const AppleSharePhoneV2 = resolve => require(['@/components/Apple/ShareV2'], resolve) //苹果发布会 分享页 第二版
+//广告官网 移动版
+const HomeMobileXCX = resolve => require(['@/components/Apple/Mobile/Xcx'], resolve) //广告官网 移动版  小程序推广
 
 import Symbols from '@/components/Index/Symbols'
 
@@ -24,6 +26,8 @@ export default new Router({
     mode: 'history',
     // scrollBehavior: () => ({ y: 0 }),
     routes: [
+        // 广告官网移动版
+        {path: '/',component: HomeMobileXCX},
         { path: '/index', component: Index },
         { path: '/left', component: Left },
         { path: '/hi', component: Hello },
